@@ -39,11 +39,6 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -68,9 +63,8 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>in28min/${project.name}</repository>
+					<repository>ahamadfaiz7/${project.name}</repository>
 					<tag>${project.version}</tag>
-					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
 			</plugin>
 
