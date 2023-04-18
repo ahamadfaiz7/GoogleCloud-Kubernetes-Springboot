@@ -44,7 +44,7 @@ We will deploy to Docker as a WAR
 			</execution>
 		</executions>
 		<configuration>
-			<repository>in28min/${project.name}</repository>
+			<repository>ahamadfaiz7/${project.name}</repository>
 			<tag>${project.version}</tag>
 			<skipDockerInfo>true</skipDockerInfo>
 		</configuration>
